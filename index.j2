@@ -26,6 +26,9 @@ setTimeout('Elastic()',100)
 <img src="ru.png" width = 200 height = 120><img src="ru1.png" width = 200 height = 120><br>
 <img src="ru3.png" width = 200 height = 120><img src="ru4.png" width = 200 height = 120><br>
 <img src="ru5.png" width = 200 height = 120><br>
+Server Host Name : {{ ansible_hostname }}<br>
+Server OS Family is: {{ ansible_os_family }}<br>
+IP Address of this Server is: {{ ansible_default_ipv4.address }}<br>
 
 </body>
 </HTML>
